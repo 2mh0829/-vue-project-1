@@ -10,7 +10,7 @@
 
 
   <div class="menu">
-    <a v-for="(a,i) in 메뉴들" :key="i">{{a}}</a>
+    <a v-for="(a,b) in 메뉴들" :key="b">{{a}}</a>
 
   </div>
 
